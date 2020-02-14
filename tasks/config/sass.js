@@ -9,6 +9,7 @@ module.exports = function(grunt) {
         sourceMap: false
       },
       files: {
+        'source/assets/css/donate.css': 'source/_css/donate.scss',
         'source/assets/css/tranquilpeak.css': 'source/_css/tranquilpeak.scss'
       }
     }
